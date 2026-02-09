@@ -18,6 +18,7 @@ class Gait < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("\#{bin}/gait --help")
+    output = shell_output("\#{bin}/gait demo --json")
+    assert_match "\"run_id\"", output
   end
 end

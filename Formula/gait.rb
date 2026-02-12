@@ -5,11 +5,11 @@ class Gait < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/davidahmann/gait/releases/download/v1.0.7/gait_1.0.7_darwin_arm64.tar.gz"
-      sha256 "69646c7c7276fab61c2fcc86a35ad245dd2d5388b801e6feea4e38b845a3f1f0"
+      url "https://github.com/davidahmann/gait/releases/download/v1.0.8/gait_1.0.8_darwin_arm64.tar.gz"
+      sha256 "9fed63055d6710d237eee6bf074ea95ce14be93b9f50cb182d7cd160cf138184"
     else
-      url "https://github.com/davidahmann/gait/releases/download/v1.0.7/gait_1.0.7_darwin_amd64.tar.gz"
-      sha256 "b7ece4998d97e308e7322eae9fff201574718b20718a8796f2fc7896b17d9eae"
+      url "https://github.com/davidahmann/gait/releases/download/v1.0.8/gait_1.0.8_darwin_amd64.tar.gz"
+      sha256 "1d1ae7a00fb41d2bed081a92e1bdda5bb485df0b539e20ebc8e0abea022ad9b4"
     end
   end
 

@@ -1,16 +1,16 @@
 class Gait < Formula
   desc "Offline-first control plane for production AI agent tool calls"
   homepage "https://github.com/davidahmann/gait"
-  version "1.2.0"
+  version "1.2.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/davidahmann/gait/releases/download/v1.2.0/gait_1.2.0_darwin_arm64.tar.gz"
-      sha256 "f431af2a7d3ac35415d71fec7c6eca2639c6f2cf2fbfbbba35e04ea5c1b0b2d5"
+      url "https://github.com/davidahmann/gait/releases/download/v1.2.1/gait_1.2.1_darwin_arm64.tar.gz"
+      sha256 "857751ea18424203bf4c05ff85e3bfe875ea4ff83b8e9262ed8ab935a9234095"
     else
-      url "https://github.com/davidahmann/gait/releases/download/v1.2.0/gait_1.2.0_darwin_amd64.tar.gz"
-      sha256 "998967d99a112620aae08ddfbd095dd6cb936e566fb23f19a6a3335fc892c6bd"
+      url "https://github.com/davidahmann/gait/releases/download/v1.2.1/gait_1.2.1_darwin_amd64.tar.gz"
+      sha256 "5b3573fc70c782c5069ea0628f4af257d27549923dff3e159611a5fe2ab0ec2c"
     end
   end
 
